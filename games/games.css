@@ -33,14 +33,15 @@ h3 { font-size: clamp(1.3rem, 2.4vw, 1.8rem); letter-spacing: -.035em; }
 .cta:hover { background: #ffe5a9; }
 .section-head { margin-bottom: 18px; }
 .section-head span, .foot { color: var(--muted); }
-.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-.card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); background: var(--surface); border-radius: 16px; }
+.grid { counter-reset: game-number; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.card { counter-increment: game-number; --tone: var(--accent); --art: #303647; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); background: var(--surface); border-radius: 16px; }
 .seal { --tone: #dbc4ff; --art: #3b2c5b; }
 .lastwall { --tone: #ffb79e; --art: #593429; }
 .castle { --tone: #b9d6ff; --art: #293f60; }
 .alley { --tone: #c6ebb1; --art: #324a35; }
 .art { position: relative; display: grid; place-items: center; min-height: 180px; padding: 26px; background: radial-gradient(ellipse at center, var(--art), #161922 78%); }
-.art span { position: absolute; top: 16px; left: 18px; color: var(--tone); }
+.game-number { position: absolute; top: 16px; left: 18px; color: var(--tone); }
+.game-number::before { content: counter(game-number, decimal-leading-zero); }
 .art img { display: block; width: 132px; height: 132px; object-fit: contain; border-radius: 16px; }
 .content { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 18px clamp(16px, 3vw, 28px) 14px; }
 .content p { margin: 0 0 12px; color: var(--muted); }

@@ -2,6 +2,14 @@
 
 YJ Studio 앱 안내와 개인정보처리방침 페이지 (GitHub Pages)
 
+## YJ Playworks 게임
+
+- 게임 소개: https://yjstudio-apps.github.io/games/
+- 새 게임은 `games/index.html`의 게임 목록에 카드 하나를 추가합니다. 제목, 장르, 소개, 개인정보처리방침 링크를 채우고 아이콘은 `games/assets/`에 넣습니다. 카드 번호는 자동으로 매겨집니다.
+- 스토어에서 공개한 게임은 해당 카드에 실제 스토어 링크를 추가할 수 있습니다. `main`에 반영하면 GitHub Pages가 배포합니다.
+
+## 앱 및 개인정보처리방침
+
 - 집기록: https://yjstudio-apps.github.io/privacy/homerecord/
 - 증거노트: https://yjstudio-apps.github.io/privacy/evidencenote/ (English: /privacy/evidencenote/en.html)
 - 우리집 알림장: https://yjstudio-apps.github.io/privacy/woorijip/

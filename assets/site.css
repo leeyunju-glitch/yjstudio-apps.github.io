@@ -83,8 +83,9 @@ img { max-width: 100%; height: auto; display: block; }
 .nav-links a:hover { color: #fff; background: rgba(255, 255, 255, 0.08); }
 .nav-cta { margin-left: 4px; }
 @media (max-width: 680px) {
-  .nav-links { display: none; }
-  .nav-cta { margin-left: auto; }
+  .nav .wrap { gap: 8px; }
+  .nav-links a:not(.nav-games) { display: none; }
+  .nav-games { display: inline-flex; align-items: center; min-height: 44px; }
 }
 
 /* ── 버튼 ── */
