@@ -27,6 +27,14 @@ YJ Studio(YJ Lab)가 제공하는 키노트(KeyNote, Android 패키지 `com.keyn
 
 Unity의 데이터 처리 및 열람·삭제 요청은 [Unity 앱 사용자 개인정보처리방침](https://unity.com/legal/game-player-and-app-user-privacy-policy)과 광고에 제공되는 개인정보 아이콘을 참고하세요. 기기 안의 금고 데이터 삭제 방법은 아래 6절에서 확인할 수 있습니다.
 
+### Unity Ads 데이터 삭제 요청
+
+1. KeyNote에서 Unity 광고의 개인정보 아이콘을 엽니다.
+2. 표시되는 Unity 개인정보 안내에서 기기의 광고 데이터를 확인하고, 기존 광고 데이터 삭제를 요청합니다.
+3. 아이콘이 표시되지 않으면 [Unity 개인정보처리방침의 권리 행사 및 연락처 안내](https://unity.com/legal/game-player-and-app-user-privacy-policy)를 이용합니다.
+
+Unity는 기기와 연결된 광고 데이터에 대해 요청을 처리하며 신원 확인을 요청할 수 있습니다. 보안 로그의 IP 주소와 법적 의무에 필요한 정보는 Unity 방침에 따라 보관될 수 있습니다. 기기 안에 저장된 금고 데이터는 6절에 따라 직접 삭제할 수 있습니다.
+
 ## 4. 생체 인증과 알림
 
 선택적 생체 인증은 Android 인증 창과 Keystore를 사용합니다. 앱은 지문·얼굴 이미지나 생체 원본을 받거나 저장하지 않습니다. 등록 변경 등으로 생체 키를 사용할 수 없으면 마스터 비밀번호를 사용합니다. 생체 인증은 설정에서 끌 수 있습니다.
@@ -77,6 +85,14 @@ The app requests non-personalized ads and initializes the ads SDK and requests a
 Starting with 0.9.1, Unity Ads starts on Android 13 and later after you allow banners. Contextual ads can appear at the bottom of Home, Accounts, History and Settings. Unity may collect or share IP addresses and approximate location, ad interactions, diagnostic information, and identifiers used by Unity for ad delivery and measurement, app functionality, fraud prevention and security. Data is encrypted in transit. You can stop new banner requests from “Ad privacy choices” in Settings. Vault features are available with either choice.
 
 For Unity’s processing and requests to access or delete ad data, see the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy) and the privacy icon where provided in the ad. Section 6 describes how to remove on-device vault data.
+
+### Unity Ads data deletion
+
+1. Open the privacy icon on a Unity ad in KeyNote.
+2. Review the device's ad data in the Unity disclosure and use the option to request deletion of historical ad data.
+3. If the icon is unavailable, use the rights and contact instructions in the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy).
+
+Unity handles deletion requests for ad data associated with your device and may verify your identity. IP addresses in security logs and data required by law may be retained under Unity's policy. For data stored in the vault on your device, follow Section 6.
 
 ## 4. Biometrics and reminders
 
