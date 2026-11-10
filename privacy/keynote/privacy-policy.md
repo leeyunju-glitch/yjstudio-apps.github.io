@@ -3,7 +3,7 @@ YJ Studio (YJ Lab) · com.keynote.android
 # 키노트 · KeyNote  
 Privacy Policy
 
-개인정보처리방침 · 시행일 / Effective date: 2026-11-09 · Android 0.9.0–0.9.1
+개인정보처리방침 · 갱신일 / Updated: 2026-11-10 · Android 0.9.0–0.9.2
 
 ## 1. 앱과 운영자
 
@@ -23,7 +23,9 @@ YJ Studio(YJ Lab)가 제공하는 키노트(KeyNote, Android 패키지 `com.keyn
 
 맞춤형 광고를 요청하지 않으며, UMP가 광고 요청을 허용한 경우에만 SDK를 초기화하고 광고를 요청합니다. 지역과 설정에 따라 필요한 동의 화면을 표시하고, UMP가 요구하는 경우 앱 설정에 ‘광고 개인정보 설정’을 제공합니다. 광고가 없거나 불러오기에 실패해도 금고 기능은 사용할 수 있습니다. 광고를 누르면 금고를 잠그고 Google 또는 광고주의 화면으로 이동할 수 있으며, 해당 서비스의 방침이 적용됩니다. SDK의 정보 보관·처리와 권리 행사는 [Google 개인정보처리방침](https://policies.google.com/privacy) 및 [Google 광고 SDK 데이터 안내](https://developers.google.com/admob/android/privacy/play-data-disclosure)를 참고하세요.
 
-0.9.1부터는 Android 13 이상에서 사용자가 배너를 허용하면 Unity Ads를 시작합니다. 홈·계정·변경 기록·설정 하단에 문맥 기반 광고가 표시될 수 있습니다. Unity는 광고 표시와 측정, 앱 기능, 부정행위 방지 및 보안을 위해 IP 주소와 대략적인 위치, 광고 상호작용, 진단 정보, Unity가 사용하는 식별자를 수집하거나 공유할 수 있습니다. 전송에는 암호화된 연결을 사용합니다. 설정의 ‘광고 개인정보 설정’에서 배너를 끄면 이후 배너 요청을 중지합니다. 금고는 배너 설정과 관계없이 사용할 수 있습니다.
+0.9.1부터 Android 13 이상에서 사용자가 허용한 뒤 금고를 열면 Unity Ads가 시작됩니다. 광고는 홈·계정·변경 기록·설정 하단에 표시될 수 있으며 문맥 기반 광고를 요청합니다. 0.9.2에서는 금고 생성 화면에서 광고 데이터 처리 안내를 읽고 선택할 수 있으며, 이후 설정의 ‘광고 개인정보 설정’에서 선택을 변경할 수 있습니다. 기존에 저장한 선택은 업데이트 후에도 적용됩니다. 허용을 철회하면 새 배너 요청이 중지되고 앱을 다시 실행할 때 Unity Ads가 시작되지 않습니다. 동의 여부와 관계없이 금고를 사용할 수 있습니다.
+
+Unity Technologies SF([개인정보 문의](mailto:DPO@unity3d.com))는 광고 제공과 측정, 앱 기능, 부정행위 방지 및 보안을 위해 IP 주소와 IP로 추정한 대략적 위치, 기기 정보와 Unity가 사용하는 식별자, 광고 상호작용 및 진단 정보를 수집하거나 공유할 수 있습니다. 허용 후 광고 SDK가 시작되거나 광고를 불러오고 표시·이용할 때 이 정보는 암호화된 연결로 전송됩니다. Unity의 개인정보처리방침에 따라 미국과 Unity 또는 그 서비스 제공업체가 운영하는 다른 국가에서 처리될 수 있으며, 처리 목적에 필요한 기간과 법률이 허용하거나 요구하는 기간 동안 보관될 수 있습니다.
 
 Unity의 데이터 처리 및 열람·삭제 요청은 [Unity 앱 사용자 개인정보처리방침](https://unity.com/legal/game-player-and-app-user-privacy-policy)과 광고에 제공되는 개인정보 아이콘을 참고하세요. 기기 안의 금고 데이터 삭제 방법은 아래 6절에서 확인할 수 있습니다.
 
@@ -59,7 +61,7 @@ Unity는 기기와 연결된 광고 데이터에 대해 요청을 처리하며 �
 
 문의를 직접 보내면 답변과 후속 대응에 필요한 발신 이메일 주소와 문의 내용을 처리합니다. 목적 달성 후 불필요한 정보를 삭제하며 법령상 보관 의무가 있는 경우에는 해당 기간을 따릅니다. 마스터 비밀번호, 복구 비밀번호, 실제 계정 비밀번호 또는 백업 파일을 문의 메일에 보내지 마세요. 개인정보 관련 문의와 권리 요청도 아래 연락처로 할 수 있습니다.
 
-이 방침 웹사이트는 GitHub Pages에서 제공합니다. 웹사이트 접속 정보는 [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)에 따라 처리될 수 있습니다. 기능이나 개인정보 처리 방식이 바뀌면 이 페이지와 시행일을 갱신하고 필요한 경우 앱에서도 알립니다.
+이 방침은 GitHub에서 공개합니다. 페이지 접속 정보는 [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)에 따라 처리될 수 있습니다. 기능이나 개인정보 처리 방식이 바뀌면 이 페이지와 갱신일을 업데이트하고 필요한 경우 앱에서도 알립니다.
 
 운영자: YJ Studio (YJ Lab)  
 지원 및 개인정보 연락처: [yjstudio.apps@gmail.com](mailto:yjstudio.apps@gmail.com)
@@ -82,7 +84,9 @@ Version 0.9.0 uses Google AdMob and the User Messaging Platform (UMP) for small 
 
 The app requests non-personalized ads and initializes the ads SDK and requests ads only when UMP allows it. Required consent forms depend on your region and settings. When UMP requires a privacy options entry point, “Ad privacy choices” is available in app settings. Vault features remain usable if no ad is available or loading fails. Tapping an ad locks the vault and may open Google or an advertiser's page under that service's policies. For Google's retention, processing and rights requests, see the [Google Privacy Policy](https://policies.google.com/privacy) and [ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure).
 
-Starting with 0.9.1, Unity Ads starts on Android 13 and later after you allow banners. Contextual ads can appear at the bottom of Home, Accounts, History and Settings. Unity may collect or share IP addresses and approximate location, ad interactions, diagnostic information, and identifiers used by Unity for ad delivery and measurement, app functionality, fraud prevention and security. Data is encrypted in transit. You can stop new banner requests from “Ad privacy choices” in Settings. Vault features are available with either choice.
+Starting with 0.9.1, Unity Ads starts on Android 13 and later once you have allowed banners and opened the vault. Contextual ads can appear at the bottom of Home, Accounts, History and Settings. In 0.9.2, you can review the ad data disclosure and make a choice on the vault creation screen, then change that choice in “Ad privacy choices” in Settings. A saved choice is carried forward on update. Withdrawing permission stops new banner requests and prevents Unity Ads from starting the next time the app is launched. You can use the vault either way.
+
+Unity Technologies SF ([privacy contact](mailto:DPO@unity3d.com)) may collect or share IP addresses and IP-based approximate location, device information and identifiers used by Unity, ad interactions and diagnostic data for ad delivery and measurement, app functionality, fraud prevention and security. After you allow banners, data is sent over an encrypted connection when the advertising SDK starts and when ads are loaded, displayed or interacted with. Under Unity's privacy policy, data may be processed in the United States and other countries where Unity or its service providers operate. Unity may retain it as necessary for those purposes or as permitted or required by applicable law.
 
 For Unity’s processing and requests to access or delete ad data, see the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy) and the privacy icon where provided in the ad. Section 6 describes how to remove on-device vault data.
 
@@ -118,7 +122,7 @@ Android automatic cloud backup and automatic device transfer are excluded by app
 
 If you contact us, we process your sender email address and message to respond and follow up. We delete information no longer needed after that purpose is fulfilled, subject to any legal retention duties. Do not email master or recovery passwords, real account passwords or backup files. Use the contact below for privacy questions or rights requests.
 
-This policy website is hosted by GitHub Pages. Website visits may be processed under the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). We update this page and its effective date when features or data handling change and notify users in the app when needed.
+This policy is published on GitHub. Page visits may be processed under the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). We update this page and its revision date when features or data handling change and notify users in the app when needed.
 
 Operator: YJ Studio (YJ Lab)  
 Support and privacy contact: [yjstudio.apps@gmail.com](mailto:yjstudio.apps@gmail.com)
